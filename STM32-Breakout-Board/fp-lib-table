@@ -1,0 +1,4 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "BBSTM32_pcblib") (type "KiCad") (uri "${KIPRJMOD}/BBSTM32_pcblib.pretty") (options "") (descr ""))
+)
