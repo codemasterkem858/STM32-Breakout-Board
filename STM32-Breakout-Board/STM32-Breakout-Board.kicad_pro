@@ -76,7 +76,7 @@
           "width": 0.0
         },
         {
-          "gap": 0.3,
+          "gap": 0.5,
           "via_gap": 0.5,
           "width": 0.3
         }
@@ -672,7 +672,7 @@
         "uuid": "20c83845-728b-4bd9-b6c3-a9139102febf"
       }
     ],
-    "used_designators": "R4-5,#FLG1,J3-4,#PWR21-23,D1",
+    "used_designators": "J2-4",
     "variants": []
   },
   "sheets": [
