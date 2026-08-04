@@ -1081,7 +1081,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector:Conn_01x14_Pin"
+		(symbol "Connector:Conn_01x20_Pin"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -1092,7 +1092,7 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "J"
-				(at 0 17.78 0)
+				(at 0 25.4 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -1101,8 +1101,8 @@
 					)
 				)
 			)
-			(property "Value" "Conn_01x14_Pin"
-				(at 0 -20.32 0)
+			(property "Value" "Conn_01x20_Pin"
+				(at 0 -27.94 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -1133,7 +1133,7 @@
 					)
 				)
 			)
-			(property "Description" "Generic connector, single row, 01x14, script generated"
+			(property "Description" "Generic connector, single row, 01x20, script generated"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1176,7 +1176,40 @@
 					)
 				)
 			)
-			(symbol "Conn_01x14_Pin_1_1"
+			(symbol "Conn_01x20_Pin_1_1"
+				(rectangle
+					(start 0.8636 22.987)
+					(end 0 22.733)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 20.447)
+					(end 0 20.193)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 17.907)
+					(end 0 17.653)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
 				(rectangle
 					(start 0.8636 15.367)
 					(end 0 15.113)
@@ -1329,6 +1362,75 @@
 					)
 					(fill
 						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 -20.193)
+					(end 0 -20.447)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 -22.733)
+					(end 0 -22.987)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 -25.273)
+					(end 0 -25.527)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 22.86) (xy 0.8636 22.86)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 20.32) (xy 0.8636 20.32)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 17.78) (xy 0.8636 17.78)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
 					)
 				)
 				(polyline
@@ -1499,8 +1601,44 @@
 						(type none)
 					)
 				)
+				(polyline
+					(pts
+						(xy 1.27 -20.32) (xy 0.8636 -20.32)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -22.86) (xy 0.8636 -22.86)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -25.4) (xy 0.8636 -25.4)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(pin passive line
-					(at 5.08 15.24 180)
+					(at 5.08 22.86 180)
 					(length 3.81)
 					(name "Pin_1"
 						(effects
@@ -1518,7 +1656,7 @@
 					)
 				)
 				(pin passive line
-					(at 5.08 12.7 180)
+					(at 5.08 20.32 180)
 					(length 3.81)
 					(name "Pin_2"
 						(effects
@@ -1536,7 +1674,7 @@
 					)
 				)
 				(pin passive line
-					(at 5.08 10.16 180)
+					(at 5.08 17.78 180)
 					(length 3.81)
 					(name "Pin_3"
 						(effects
@@ -1554,7 +1692,7 @@
 					)
 				)
 				(pin passive line
-					(at 5.08 7.62 180)
+					(at 5.08 15.24 180)
 					(length 3.81)
 					(name "Pin_4"
 						(effects
@@ -1572,7 +1710,7 @@
 					)
 				)
 				(pin passive line
-					(at 5.08 5.08 180)
+					(at 5.08 12.7 180)
 					(length 3.81)
 					(name "Pin_5"
 						(effects
@@ -1590,7 +1728,7 @@
 					)
 				)
 				(pin passive line
-					(at 5.08 2.54 180)
+					(at 5.08 10.16 180)
 					(length 3.81)
 					(name "Pin_6"
 						(effects
@@ -1608,7 +1746,7 @@
 					)
 				)
 				(pin passive line
-					(at 5.08 0 180)
+					(at 5.08 7.62 180)
 					(length 3.81)
 					(name "Pin_7"
 						(effects
@@ -1626,7 +1764,7 @@
 					)
 				)
 				(pin passive line
-					(at 5.08 -2.54 180)
+					(at 5.08 5.08 180)
 					(length 3.81)
 					(name "Pin_8"
 						(effects
@@ -1644,7 +1782,7 @@
 					)
 				)
 				(pin passive line
-					(at 5.08 -5.08 180)
+					(at 5.08 2.54 180)
 					(length 3.81)
 					(name "Pin_9"
 						(effects
@@ -1662,7 +1800,7 @@
 					)
 				)
 				(pin passive line
-					(at 5.08 -7.62 180)
+					(at 5.08 0 180)
 					(length 3.81)
 					(name "Pin_10"
 						(effects
@@ -1680,7 +1818,7 @@
 					)
 				)
 				(pin passive line
-					(at 5.08 -10.16 180)
+					(at 5.08 -2.54 180)
 					(length 3.81)
 					(name "Pin_11"
 						(effects
@@ -1698,7 +1836,7 @@
 					)
 				)
 				(pin passive line
-					(at 5.08 -12.7 180)
+					(at 5.08 -5.08 180)
 					(length 3.81)
 					(name "Pin_12"
 						(effects
@@ -1716,7 +1854,7 @@
 					)
 				)
 				(pin passive line
-					(at 5.08 -15.24 180)
+					(at 5.08 -7.62 180)
 					(length 3.81)
 					(name "Pin_13"
 						(effects
@@ -1734,7 +1872,7 @@
 					)
 				)
 				(pin passive line
-					(at 5.08 -17.78 180)
+					(at 5.08 -10.16 180)
 					(length 3.81)
 					(name "Pin_14"
 						(effects
@@ -1744,6 +1882,114 @@
 						)
 					)
 					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -12.7 180)
+					(length 3.81)
+					(name "Pin_15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -15.24 180)
+					(length 3.81)
+					(name "Pin_16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -17.78 180)
+					(length 3.81)
+					(name "Pin_17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -20.32 180)
+					(length 3.81)
+					(name "Pin_18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -22.86 180)
+					(length 3.81)
+					(name "Pin_19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -25.4 180)
+					(length 3.81)
+					(name "Pin_20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "20"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4021,7 +4267,7 @@
 	)
 	(rectangle
 		(start 227.33 24.13)
-		(end 275.59 113.03)
+		(end 275.59 160.02)
 		(stroke
 			(width 0)
 			(type dash)
@@ -4078,9 +4324,9 @@
 		)
 		(uuid "935cd30a-e16c-4134-9fe9-a1d10bc92624")
 	)
-	(text "I2C and USB"
+	(text "Connectors"
 		(exclude_from_sim no)
-		(at 249.936 21.336 0)
+		(at 242.824 21.336 0)
 		(effects
 			(font
 				(size 3.81 3.81)
@@ -4269,24 +4515,20 @@
 		(uuid "f7ef85a0-998d-40bc-bf2a-b2161f45761b")
 	)
 	(no_connect
-		(at 147.32 88.9)
-		(uuid "000ab1c2-104e-42e6-87fc-bdad52a823ad")
-	)
-	(no_connect
-		(at 147.32 91.44)
-		(uuid "0a811e38-42e0-4e0a-8968-32ecb26a43af")
-	)
-	(no_connect
-		(at 147.32 86.36)
-		(uuid "247bffe2-a2c9-401b-90ac-bff3b43b0d82")
-	)
-	(no_connect
 		(at 48.26 146.05)
 		(uuid "489f010c-6217-4597-a156-4049178290a2")
 	)
 	(no_connect
+		(at 48.26 140.97)
+		(uuid "7fab8b10-1669-4605-be59-2e7d16afcb52")
+	)
+	(no_connect
 		(at 38.1 151.13)
 		(uuid "8f1e2fef-109d-40c1-8c9a-c62cf241c15d")
+	)
+	(no_connect
+		(at 48.26 143.51)
+		(uuid "c24cda7a-8a35-4c4b-994b-127f7e8132d8")
 	)
 	(wire
 		(pts
@@ -4310,7 +4552,7 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 46.99) (xy 248.92 46.99)
+			(xy 240.03 130.81) (xy 245.11 130.81)
 		)
 		(stroke
 			(width 0)
@@ -4340,6 +4582,16 @@
 	)
 	(wire
 		(pts
+			(xy 240.03 67.31) (xy 245.11 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a10f6d3-a6d2-4c01-acb6-5030f20e6dec")
+	)
+	(wire
+		(pts
 			(xy 142.24 104.14) (xy 147.32 104.14)
 		)
 		(stroke
@@ -4360,7 +4612,7 @@
 	)
 	(wire
 		(pts
-			(xy 266.7 44.45) (xy 271.78 44.45)
+			(xy 240.03 100.33) (xy 245.11 100.33)
 		)
 		(stroke
 			(width 0)
@@ -4387,6 +4639,16 @@
 			(type default)
 		)
 		(uuid "10280a8e-a3d5-4919-a6d2-7899d89943bc")
+	)
+	(wire
+		(pts
+			(xy 240.03 120.65) (xy 245.11 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12275692-b01e-46e9-a428-75c6164f6c24")
 	)
 	(wire
 		(pts
@@ -4420,6 +4682,16 @@
 	)
 	(wire
 		(pts
+			(xy 240.03 52.07) (xy 245.11 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1844822d-cab2-414e-a038-852cb1e49a37")
+	)
+	(wire
+		(pts
 			(xy 50.8 85.09) (xy 55.88 85.09)
 		)
 		(stroke
@@ -4430,7 +4702,7 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 124.46) (xy 175.26 124.46)
+			(xy 180.34 124.46) (xy 175.26 124.46)
 		)
 		(stroke
 			(width 0)
@@ -4457,6 +4729,16 @@
 			(type default)
 		)
 		(uuid "2366c9e5-c43e-48d2-add2-ac5803bb4205")
+	)
+	(wire
+		(pts
+			(xy 240.03 49.53) (xy 242.57 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2577ab0c-8e4c-445b-b670-2747a37e9501")
 	)
 	(wire
 		(pts
@@ -4510,7 +4792,7 @@
 	)
 	(wire
 		(pts
-			(xy 266.7 34.29) (xy 271.78 34.29)
+			(xy 240.03 90.17) (xy 245.11 90.17)
 		)
 		(stroke
 			(width 0)
@@ -4547,6 +4829,16 @@
 			(type default)
 		)
 		(uuid "34755a17-5c75-401e-a7bc-d97ab878f223")
+	)
+	(wire
+		(pts
+			(xy 142.24 86.36) (xy 147.32 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36ae4216-64b9-4b99-b99c-ca2e3833e941")
 	)
 	(wire
 		(pts
@@ -4620,7 +4912,7 @@
 	)
 	(wire
 		(pts
-			(xy 266.7 41.91) (xy 271.78 41.91)
+			(xy 240.03 97.79) (xy 245.11 97.79)
 		)
 		(stroke
 			(width 0)
@@ -4650,13 +4942,13 @@
 	)
 	(wire
 		(pts
-			(xy 255.27 52.07) (xy 260.35 52.07)
+			(xy 240.03 118.11) (xy 245.11 118.11)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "50854ca1-2f00-45f3-a53d-804b80f6327d")
+		(uuid "50af3524-5e72-42af-9b29-2b8f4c49ac57")
 	)
 	(wire
 		(pts
@@ -4690,6 +4982,16 @@
 	)
 	(wire
 		(pts
+			(xy 245.11 31.75) (xy 240.03 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "545a98d4-f1cd-415e-abdb-319c7df4d20a")
+	)
+	(wire
+		(pts
 			(xy 120.65 109.22) (xy 120.65 104.14)
 		)
 		(stroke
@@ -4710,13 +5012,23 @@
 	)
 	(wire
 		(pts
-			(xy 266.7 39.37) (xy 271.78 39.37)
+			(xy 240.03 95.25) (xy 245.11 95.25)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "5a57ed00-eaaa-4eed-ab00-a66386bc53ec")
+	)
+	(wire
+		(pts
+			(xy 240.03 69.85) (xy 245.11 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c4a0c6a-6267-4ebf-95b5-362c63be7173")
 	)
 	(wire
 		(pts
@@ -4770,7 +5082,7 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 127) (xy 175.26 127)
+			(xy 180.34 127) (xy 175.26 127)
 		)
 		(stroke
 			(width 0)
@@ -4780,7 +5092,7 @@
 	)
 	(wire
 		(pts
-			(xy 266.7 36.83) (xy 271.78 36.83)
+			(xy 240.03 92.71) (xy 245.11 92.71)
 		)
 		(stroke
 			(width 0)
@@ -4810,6 +5122,16 @@
 	)
 	(wire
 		(pts
+			(xy 240.03 74.93) (xy 245.11 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6aec0ee0-cc73-4657-b672-3ff7d60c8c89")
+	)
+	(wire
+		(pts
 			(xy 161.29 57.15) (xy 161.29 60.96)
 		)
 		(stroke
@@ -4830,6 +5152,26 @@
 	)
 	(wire
 		(pts
+			(xy 142.24 88.9) (xy 147.32 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c4efef6-55c6-4c22-af37-39226219b07f")
+	)
+	(wire
+		(pts
+			(xy 240.03 59.69) (xy 245.11 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6df8f437-85ee-4140-8250-2289d9056b04")
+	)
+	(wire
+		(pts
 			(xy 55.88 92.71) (xy 55.88 95.25)
 		)
 		(stroke
@@ -4840,7 +5182,7 @@
 	)
 	(wire
 		(pts
-			(xy 255.27 44.45) (xy 260.35 44.45)
+			(xy 240.03 105.41) (xy 245.11 105.41)
 		)
 		(stroke
 			(width 0)
@@ -4867,6 +5209,16 @@
 			(type default)
 		)
 		(uuid "75c2b13a-ea19-4422-adc3-5b6e2af2b690")
+	)
+	(wire
+		(pts
+			(xy 142.24 91.44) (xy 147.32 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77da3639-abbd-44ec-866a-453ff471d29e")
 	)
 	(wire
 		(pts
@@ -4910,13 +5262,43 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 34.29) (xy 248.92 34.29)
+			(xy 240.03 36.83) (xy 245.11 36.83)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "84d577c0-34de-4cae-b4ab-172b39ff1833")
+	)
+	(wire
+		(pts
+			(xy 240.03 54.61) (xy 245.11 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8647e080-d02e-45ec-859e-35eb4c3fc6c1")
+	)
+	(wire
+		(pts
+			(xy 240.03 113.03) (xy 245.11 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86fdd946-ce36-4394-9769-08dba9eb2bf8")
+	)
+	(wire
+		(pts
+			(xy 240.03 72.39) (xy 245.11 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88794066-eff8-4445-8522-26925fb69e49")
 	)
 	(wire
 		(pts
@@ -4927,26 +5309,6 @@
 			(type default)
 		)
 		(uuid "889bb008-b810-4635-8b1d-20ffdf1076ba")
-	)
-	(wire
-		(pts
-			(xy 243.84 39.37) (xy 248.92 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8d2266c8-8e0e-4809-bf33-679fc526c052")
-	)
-	(wire
-		(pts
-			(xy 59.69 130.81) (xy 59.69 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8d4a4f33-8900-4e41-8bfb-3e339d000f6e")
 	)
 	(wire
 		(pts
@@ -4970,7 +5332,7 @@
 	)
 	(wire
 		(pts
-			(xy 255.27 39.37) (xy 260.35 39.37)
+			(xy 240.03 77.47) (xy 245.11 77.47)
 		)
 		(stroke
 			(width 0)
@@ -5020,16 +5382,6 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 44.45) (xy 248.92 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9a2aa94e-52aa-4849-af1d-25faec8b386d")
-	)
-	(wire
-		(pts
 			(xy 110.49 55.88) (xy 110.49 58.42)
 		)
 		(stroke
@@ -5037,6 +5389,16 @@
 			(type default)
 		)
 		(uuid "9d59e9e7-4b5f-4064-aba4-c1e37ebce043")
+	)
+	(wire
+		(pts
+			(xy 240.03 128.27) (xy 245.11 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e32c111-1fc4-4fde-beed-5ed244ad04bb")
 	)
 	(wire
 		(pts
@@ -5050,7 +5412,7 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 31.75) (xy 248.92 31.75)
+			(xy 240.03 34.29) (xy 245.11 34.29)
 		)
 		(stroke
 			(width 0)
@@ -5070,7 +5432,7 @@
 	)
 	(wire
 		(pts
-			(xy 266.7 31.75) (xy 271.78 31.75)
+			(xy 240.03 87.63) (xy 245.11 87.63)
 		)
 		(stroke
 			(width 0)
@@ -5150,16 +5512,6 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 143.51) (xy 48.26 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "acf39e2a-e8e6-407b-8f99-8f1abd3d71c0")
-	)
-	(wire
-		(pts
 			(xy 50.8 133.35) (xy 50.8 135.89)
 		)
 		(stroke
@@ -5180,6 +5532,16 @@
 	)
 	(wire
 		(pts
+			(xy 240.03 123.19) (xy 245.11 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "adec246a-5adb-4196-a836-e8dea0963d3e")
+	)
+	(wire
+		(pts
 			(xy 157.48 144.78) (xy 157.48 147.32)
 		)
 		(stroke
@@ -5187,6 +5549,16 @@
 			(type default)
 		)
 		(uuid "ae7044c4-5220-489d-8abc-a6335b9de869")
+	)
+	(wire
+		(pts
+			(xy 240.03 57.15) (xy 245.11 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af19f83f-6388-4cac-b291-3827b0a1fe10")
 	)
 	(wire
 		(pts
@@ -5220,16 +5592,6 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 140.97) (xy 59.69 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b72fc111-05a8-4bc8-a232-9afa4557df32")
-	)
-	(wire
-		(pts
 			(xy 99.06 55.88) (xy 110.49 55.88)
 		)
 		(stroke
@@ -5260,17 +5622,7 @@
 	)
 	(wire
 		(pts
-			(xy 255.27 49.53) (xy 260.35 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bb99dd7d-e240-4aa0-9b42-354bcab5d5dd")
-	)
-	(wire
-		(pts
-			(xy 255.27 41.91) (xy 260.35 41.91)
+			(xy 240.03 102.87) (xy 245.11 102.87)
 		)
 		(stroke
 			(width 0)
@@ -5310,7 +5662,7 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 49.53) (xy 248.92 49.53)
+			(xy 240.03 133.35) (xy 245.11 133.35)
 		)
 		(stroke
 			(width 0)
@@ -5330,7 +5682,7 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 36.83) (xy 248.92 36.83)
+			(xy 240.03 39.37) (xy 245.11 39.37)
 		)
 		(stroke
 			(width 0)
@@ -5380,16 +5732,6 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 41.91) (xy 248.92 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c81f49a4-3bc3-4fc5-9f30-a2228ffd60b9")
-	)
-	(wire
-		(pts
 			(xy 129.54 82.55) (xy 147.32 82.55)
 		)
 		(stroke
@@ -5407,6 +5749,16 @@
 			(type default)
 		)
 		(uuid "cc4fd232-9dc2-4932-843e-7257857006dd")
+	)
+	(wire
+		(pts
+			(xy 240.03 64.77) (xy 245.11 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc9269b1-c843-465d-979b-f2300e8f4572")
 	)
 	(wire
 		(pts
@@ -5440,23 +5792,13 @@
 	)
 	(wire
 		(pts
-			(xy 266.7 46.99) (xy 271.78 46.99)
+			(xy 240.03 115.57) (xy 245.11 115.57)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d5b65828-730a-4029-830a-d4b91bca8cde")
-	)
-	(wire
-		(pts
-			(xy 59.69 140.97) (xy 59.69 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d721119d-f7f2-401e-9ec3-06a12df42e29")
+		(uuid "d6fd0e0a-4d08-42d8-960f-95f08c656021")
 	)
 	(wire
 		(pts
@@ -5510,7 +5852,7 @@
 	)
 	(wire
 		(pts
-			(xy 255.27 31.75) (xy 260.35 31.75)
+			(xy 240.03 41.91) (xy 245.11 41.91)
 		)
 		(stroke
 			(width 0)
@@ -5530,6 +5872,16 @@
 	)
 	(wire
 		(pts
+			(xy 240.03 62.23) (xy 245.11 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0365f0b-c529-4646-8108-c79a5a7e22c5")
+	)
+	(wire
+		(pts
 			(xy 76.2 68.58) (xy 76.2 69.85)
 		)
 		(stroke
@@ -5540,7 +5892,7 @@
 	)
 	(wire
 		(pts
-			(xy 255.27 46.99) (xy 260.35 46.99)
+			(xy 240.03 107.95) (xy 245.11 107.95)
 		)
 		(stroke
 			(width 0)
@@ -5590,7 +5942,7 @@
 	)
 	(wire
 		(pts
-			(xy 255.27 34.29) (xy 260.35 34.29)
+			(xy 240.03 44.45) (xy 245.11 44.45)
 		)
 		(stroke
 			(width 0)
@@ -5620,6 +5972,16 @@
 	)
 	(wire
 		(pts
+			(xy 240.03 125.73) (xy 245.11 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb13be4e-b87a-499e-a72c-39e7929bad48")
+	)
+	(wire
+		(pts
 			(xy 34.29 113.03) (xy 43.18 113.03)
 		)
 		(stroke
@@ -5630,7 +5992,17 @@
 	)
 	(wire
 		(pts
-			(xy 255.27 36.83) (xy 260.35 36.83)
+			(xy 240.03 110.49) (xy 245.11 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb3763ed-5eec-47b7-868d-8a7901f4c98d")
+	)
+	(wire
+		(pts
+			(xy 240.03 46.99) (xy 245.11 46.99)
 		)
 		(stroke
 			(width 0)
@@ -5690,7 +6062,7 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 52.07) (xy 248.92 52.07)
+			(xy 240.03 135.89) (xy 245.11 135.89)
 		)
 		(stroke
 			(width 0)
@@ -5718,6 +6090,30 @@
 		)
 		(uuid "fe506115-7086-4e45-9dd6-45aa47af20db")
 	)
+	(label "PC13"
+		(at 142.24 86.36 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "05efcd01-50f3-42f1-9c4c-1186ee45d55b")
+	)
+	(label "PA8"
+		(at 245.11 125.73 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify right bottom)
+		)
+		(uuid "07e493f9-b3e5-43af-809b-8e0623a30d2a")
+	)
 	(label "PA15"
 		(at 180.34 134.62 180)
 		(effects
@@ -5730,6 +6126,18 @@
 		)
 		(uuid "09bc69f2-76b3-4d7e-ac75-debc33a2770d")
 	)
+	(label "PC14"
+		(at 142.24 88.9 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "0d2146b0-c966-4cd3-bd83-7ab05e2881e0")
+	)
 	(label "PB5"
 		(at 142.24 109.22 0)
 		(effects
@@ -5741,6 +6149,18 @@
 			(justify left bottom)
 		)
 		(uuid "0df31f68-ffd1-4d6a-a117-a33ee8b729d2")
+	)
+	(label "PA7"
+		(at 245.11 64.77 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify right bottom)
+		)
+		(uuid "0f9d56b3-f853-488c-b64c-7042832cf65c")
 	)
 	(label "PA10"
 		(at 180.34 121.92 180)
@@ -5755,7 +6175,7 @@
 		(uuid "11486f2e-6dcc-4964-8f56-37f723913a8a")
 	)
 	(label "PA1"
-		(at 260.35 34.29 180)
+		(at 245.11 44.45 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5778,8 +6198,8 @@
 		)
 		(uuid "15020d33-46d3-4c68-b4a0-e7d634173533")
 	)
-	(label "PA1"
-		(at 248.92 34.29 180)
+	(label "PC14"
+		(at 245.11 36.83 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5802,6 +6222,30 @@
 		)
 		(uuid "1b0b798b-bd59-4f40-b1a2-c48cb860418b")
 	)
+	(label "PA4"
+		(at 245.11 57.15 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify right bottom)
+		)
+		(uuid "1dd08c46-573a-489b-9824-0261959235ca")
+	)
+	(label "PC15"
+		(at 142.24 91.44 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "22a433be-25b2-4066-833f-c5722347ad35")
+	)
 	(label "PA13"
 		(at 180.34 129.54 180)
 		(effects
@@ -5814,8 +6258,20 @@
 		)
 		(uuid "24519715-1bfb-4a06-b45f-d5347ef2e235")
 	)
-	(label "PA8"
-		(at 248.92 52.07 180)
+	(label "PA13"
+		(at 245.11 113.03 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify right bottom)
+		)
+		(uuid "246b874c-5bd9-44bc-b205-7ed99b49d405")
+	)
+	(label "PB12"
+		(at 245.11 135.89 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5826,8 +6282,8 @@
 		)
 		(uuid "25526829-07e5-4f08-ba6a-cf3639ae042d")
 	)
-	(label "PA6"
-		(at 248.92 46.99 180)
+	(label "PB14"
+		(at 245.11 130.81 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5838,20 +6294,8 @@
 		)
 		(uuid "258314de-20e4-4999-87ac-db83e0aeb151")
 	)
-	(label "PA4"
-		(at 248.92 41.91 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-			(justify right bottom)
-		)
-		(uuid "2669e5cb-1af7-4e2b-b97b-1c4d497e5aa0")
-	)
-	(label "PA2"
-		(at 271.78 36.83 180)
+	(label "PB7"
+		(at 245.11 92.71 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5862,8 +6306,8 @@
 		)
 		(uuid "275dea62-b568-44f7-8923-382858e1b5e0")
 	)
-	(label "PA8"
-		(at 260.35 52.07 180)
+	(label "PA6"
+		(at 245.11 62.23 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5872,22 +6316,10 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "299698c3-91d9-4dac-a5ad-433789ec82f1")
-	)
-	(label "PA5"
-		(at 245.11 44.45 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "33e17f98-c2e7-4cd4-b6f9-90bede5eee8a")
+		(uuid "2cbb2d64-8d99-40de-a66f-c34b21f44f1d")
 	)
 	(label "PA2"
-		(at 260.35 36.83 180)
+		(at 245.11 46.99 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5920,8 +6352,20 @@
 		)
 		(uuid "3d342b0f-4d6c-4640-ba12-64a9c807d9ee")
 	)
+	(label "PB2"
+		(at 245.11 72.39 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify right bottom)
+		)
+		(uuid "3f527f06-28ad-46ba-b09f-d425a074c43d")
+	)
 	(label "PA0"
-		(at 260.35 31.75 180)
+		(at 245.11 41.91 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5931,18 +6375,6 @@
 			(justify right bottom)
 		)
 		(uuid "4035cdd5-ec9b-4245-9639-dead966b3d52")
-	)
-	(label "PA7"
-		(at 260.35 49.53 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-			(justify right bottom)
-		)
-		(uuid "496d3a93-537b-491a-a6fb-2fb1486e2b03")
 	)
 	(label "PB10"
 		(at 142.24 121.92 0)
@@ -5956,8 +6388,8 @@
 		)
 		(uuid "49fde657-a309-4e4e-97b5-6c8beed61ad3")
 	)
-	(label "PA4"
-		(at 271.78 41.91 180)
+	(label "PB5"
+		(at 245.11 97.79 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5980,11 +6412,13 @@
 		)
 		(uuid "558b3962-272d-4971-ac89-ca4c21961942")
 	)
-	(label "USB_D-"
-		(at 184.15 124.46 180)
+	(label "PA11"
+		(at 180.34 124.46 180)
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
 			)
 			(justify right bottom)
 		)
@@ -6000,8 +6434,8 @@
 		)
 		(uuid "62bb26c5-31e9-4dd3-8eac-d4b836ac290d")
 	)
-	(label "PA6"
-		(at 260.35 46.99 180)
+	(label "PA14"
+		(at 245.11 107.95 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6048,8 +6482,8 @@
 		)
 		(uuid "6f194858-a054-40cc-9449-f509081ff7df")
 	)
-	(label "PA3"
-		(at 260.35 39.37 180)
+	(label "PB11"
+		(at 245.11 77.47 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6060,20 +6494,32 @@
 		)
 		(uuid "704231f0-86fa-4acb-81c2-04b1a7d7ff36")
 	)
-	(label "PA5"
-		(at 267.97 44.45 0)
+	(label "PB4"
+		(at 245.11 100.33 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 				(thickness 0.254)
 				(bold yes)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "70a090bf-ca53-4173-91fe-d2ec93906b81")
 	)
-	(label "PA4"
-		(at 260.35 41.91 180)
+	(label "PA11"
+		(at 245.11 118.11 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify right bottom)
+		)
+		(uuid "711141c8-4b44-43e2-9c21-4890bdd1c71b")
+	)
+	(label "PB3"
+		(at 245.11 102.87 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6108,8 +6554,20 @@
 		)
 		(uuid "7cbd612b-2899-4042-8868-9434afa5cdbf")
 	)
-	(label "PA3"
-		(at 271.78 39.37 180)
+	(label "PB10"
+		(at 245.11 74.93 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify right bottom)
+		)
+		(uuid "7f27c51b-8f73-484d-8457-a39038b6bde0")
+	)
+	(label "PB6"
+		(at 245.11 95.25 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6120,8 +6578,8 @@
 		)
 		(uuid "8186cba4-5c48-434f-bceb-e39135eba288")
 	)
-	(label "PA3"
-		(at 248.92 39.37 180)
+	(label "PA12"
+		(at 245.11 115.57 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6130,7 +6588,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "825b1830-10ce-4928-ac01-7755f6089403")
+		(uuid "8237a57b-aae1-4a42-b170-2806749f9d29")
 	)
 	(label "PB9"
 		(at 142.24 119.38 0)
@@ -6144,18 +6602,20 @@
 		)
 		(uuid "84582726-6d45-46fa-a23b-e04046a82e6d")
 	)
-	(label "USB_D+"
-		(at 57.15 140.97 180)
+	(label "PB0"
+		(at 245.11 67.31 180)
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
 			)
 			(justify right bottom)
 		)
-		(uuid "91bcdb75-d352-4833-b969-5f88ae7644c7")
+		(uuid "9349e52d-7ac6-4dbd-b833-bc37d77a31d0")
 	)
-	(label "PA7"
-		(at 248.92 49.53 180)
+	(label "PB13"
+		(at 245.11 133.35 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6188,20 +6648,8 @@
 		)
 		(uuid "a096a88e-8085-4dc2-a2fd-d0ad4e1eee48")
 	)
-	(label "PA6"
-		(at 271.78 46.99 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-			(justify right bottom)
-		)
-		(uuid "a9610f8a-9f7f-4d99-aa3a-71a5003580ca")
-	)
-	(label "PA2"
-		(at 248.92 36.83 180)
+	(label "PC15"
+		(at 245.11 39.37 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6234,6 +6682,18 @@
 		)
 		(uuid "b1045a82-df84-4ed5-b863-f6b24684ab97")
 	)
+	(label "PA5"
+		(at 245.11 59.69 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify right bottom)
+		)
+		(uuid "b1ef15f2-f3c9-4b18-a84f-7eb6cbdd1dcc")
+	)
 	(label "PA14"
 		(at 180.34 132.08 180)
 		(effects
@@ -6257,6 +6717,18 @@
 			(justify right bottom)
 		)
 		(uuid "b66495db-441c-4066-8aa2-2bfbadc784ca")
+	)
+	(label "PA10"
+		(at 245.11 120.65 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify right bottom)
+		)
+		(uuid "b6b41ed9-0b6c-4b9b-b2b1-f7041df9f981")
 	)
 	(label "PA7"
 		(at 180.34 114.3 180)
@@ -6318,15 +6790,15 @@
 		)
 		(uuid "caa6ba70-f120-403c-9014-4f6d6179273c")
 	)
-	(label "PA5"
-		(at 256.54 44.45 0)
+	(label "PA15"
+		(at 245.11 105.41 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 				(thickness 0.254)
 				(bold yes)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "cac1b584-94ae-421d-ae30-6e034fbd0329")
 	)
@@ -6354,8 +6826,8 @@
 		)
 		(uuid "d51308fd-85d6-4886-a607-19b7fa96fdd3")
 	)
-	(label "PA0"
-		(at 248.92 31.75 180)
+	(label "PC13"
+		(at 245.11 34.29 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6390,8 +6862,8 @@
 		)
 		(uuid "e09230b3-5f4f-4bed-a98a-0dd93d722d6c")
 	)
-	(label "PA0"
-		(at 271.78 31.75 180)
+	(label "PB9"
+		(at 245.11 87.63 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6401,6 +6873,42 @@
 			(justify right bottom)
 		)
 		(uuid "e0b351e3-3138-4495-961d-417330af6cbb")
+	)
+	(label "PB1"
+		(at 245.11 69.85 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify right bottom)
+		)
+		(uuid "e40910c8-816b-4b3d-875d-5cb238e9936c")
+	)
+	(label "PA9"
+		(at 245.11 123.19 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify right bottom)
+		)
+		(uuid "e8fa7b33-3854-4af0-ab94-3b315cc417d6")
+	)
+	(label "PA3"
+		(at 245.11 54.61 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify right bottom)
+		)
+		(uuid "eae5f683-b208-4237-9a80-9c6d54702638")
 	)
 	(label "PB6"
 		(at 142.24 111.76 0)
@@ -6414,8 +6922,8 @@
 		)
 		(uuid "eb6451b3-afd1-40de-a364-dfc65bfdf259")
 	)
-	(label "PA1"
-		(at 271.78 34.29 180)
+	(label "PB8"
+		(at 245.11 90.17 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6436,6 +6944,18 @@
 		)
 		(uuid "ef9d7090-a305-4e12-8254-efc9d15f3470")
 	)
+	(label "PB15"
+		(at 245.11 128.27 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify right bottom)
+		)
+		(uuid "f35145d3-6282-46c5-b630-06a229957697")
+	)
 	(label "PA6"
 		(at 180.34 111.76 180)
 		(effects
@@ -6448,25 +6968,17 @@
 		)
 		(uuid "f35a3b63-60d8-4b2b-abd2-f68a325e29a7")
 	)
-	(label "USB_D+"
-		(at 184.15 127 180)
+	(label "PA12"
+		(at 180.34 127 180)
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
 			)
 			(justify right bottom)
 		)
 		(uuid "fbabc28c-f7de-4f7d-85ab-78a477a46e8d")
-	)
-	(label "USB_D-"
-		(at 57.15 143.51 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "fca8d087-f88f-464c-af5e-b2aa89b191d3")
 	)
 	(label "LED_A"
 		(at 38.1 113.03 0)
@@ -6560,6 +7072,275 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x20_Pin")
+		(at 234.95 54.61 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "04b6fca3-9c64-4b3c-b19a-8c102ddec224")
+		(property "Reference" "J2"
+			(at 235.585 26.67 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x20_Pin"
+			(at 235.585 29.21 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x20_P2.54mm_Vertical"
+			(at 234.95 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://eu.mouser.com/datasheet/3/71/1/M20_999.pdf"
+			(at 234.95 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x20, script generated"
+			(at 234.95 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor 1" "https://eu.mouser.com/en/ProductDetail/Harwin/M20-9992046?qs=%252Bk6%2F5FB6qrkVgm0dNoxueg%3D%3D"
+			(at 234.95 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Harwin"
+			(at 234.95 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "M20-9992046"
+			(at 234.95 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 234.95 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 234.95 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "14"
+			(uuid "03f2122c-117b-4988-b2b6-ba04f43ceb1d")
+		)
+		(pin "15"
+			(uuid "8f72f5d0-4ded-4660-8206-8b253ce58177")
+		)
+		(pin "11"
+			(uuid "752f5563-aed7-466a-a06b-95d72a454dae")
+		)
+		(pin "17"
+			(uuid "08a28f39-46c8-4693-9eaa-0370c0ecb7b4")
+		)
+		(pin "12"
+			(uuid "447a4ec3-d544-41dd-a224-95925fba3c0f")
+		)
+		(pin "9"
+			(uuid "7274c4fe-c7d0-48e1-b9ca-10d975b2c8a1")
+		)
+		(pin "6"
+			(uuid "28c26882-68ff-46b3-a992-01028484b181")
+		)
+		(pin "18"
+			(uuid "09b5bbf6-629d-4c4a-9877-db0463743162")
+		)
+		(pin "2"
+			(uuid "4de81064-2420-4a6a-b19c-db2f1e7e9b59")
+		)
+		(pin "7"
+			(uuid "20363444-6147-461e-acf1-5241d20ccd4f")
+		)
+		(pin "19"
+			(uuid "20a5e6bb-e05c-4d55-9056-c6e0ac4f4ccb")
+		)
+		(pin "8"
+			(uuid "01419ff6-da8a-40a2-864a-a17905ceb6a3")
+		)
+		(pin "13"
+			(uuid "26489b76-8f65-4cca-af18-ec0878ef163f")
+		)
+		(pin "5"
+			(uuid "9f551008-2406-4c41-a494-de0beb6dd3a3")
+		)
+		(pin "10"
+			(uuid "2adc6df0-773d-45c6-9711-708c3e8bb8ce")
+		)
+		(pin "16"
+			(uuid "00048957-3272-40db-90c2-31f94e2f8e53")
+		)
+		(pin "20"
+			(uuid "fe90ec2b-3cc8-4354-b2cb-dfe6f6b869f7")
+		)
+		(pin "4"
+			(uuid "50370de7-edb7-47b6-b891-1cb66870b3ce")
+		)
+		(pin "3"
+			(uuid "56d49bb2-e0b5-4c4c-a40e-f91aab0c9a5c")
+		)
+		(pin "1"
+			(uuid "e51e2372-fc82-494a-a7a5-4b92d37171b5")
+		)
+		(instances
+			(project "STM32-Breakout-Board"
+				(path "/20c83845-728b-4bd9-b6c3-a9139102febf"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VBUS")
+		(at 240.03 80.01 270)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "05c5b1b2-7893-48e0-8bca-10f658ca0bbc")
+		(property "Reference" "#PWR018"
+			(at 236.22 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VBUS"
+			(at 243.84 80.0099 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 240.03 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 240.03 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
+			(at 240.03 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9d6bdfd3-4f93-4ba6-9f60-571554c832c3")
+		)
+		(instances
+			(project "STM32-Breakout-Board"
+				(path "/20c83845-728b-4bd9-b6c3-a9139102febf"
+					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 208.28 63.5 0)
 		(unit 1)
@@ -6604,7 +7385,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://ele.kyocera.com/assets/products/capacitor/KGM_Series_e.pdf"
 			(at 208.28 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -6616,6 +7397,61 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 208.28 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "KYOCERA AVX"
+			(at 208.28 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "KGM15BR71C105JT"
+			(at 208.28 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor 1" "https://eu.mouser.com/en/ProductDetail/KYOCERA-AVX/KGM15BR71C105JT?qs=Z%252BL2brAPG1K2MbrAaZa7Nw%3D%3D"
+			(at 208.28 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 208.28 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
 			(at 208.28 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -6763,7 +7599,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://ele.kyocera.com/assets/products/capacitor/KGM_Series_e.pdf"
 			(at 129.54 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -6775,6 +7611,61 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 129.54 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "KYOCERA AVX"
+			(at 129.54 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "KGM05ACG1H100JH"
+			(at 129.54 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor 1" "https://eu.mouser.com/en/ProductDetail/KYOCERA-AVX/KGM05ACG1H100JH?qs=Jm2GQyTW%2FbiDa9IJ%2FofzNQ%3D%3D"
+			(at 129.54 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 129.54 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
 			(at 129.54 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -7001,7 +7892,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheets.kyocera-avx.com/KGM_X7R.pdf"
 			(at 87.63 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -7013,6 +7904,61 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 87.63 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "KYOCERA AVX"
+			(at 87.63 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "04025C104JAT2A"
+			(at 87.63 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor 1" "https://eu.mouser.com/en/ProductDetail/KYOCERA-AVX/04025C104JAT2A?qs=yqaQSyyJnNjAUYBPnTRwrw%3D%3D"
+			(at 87.63 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 87.63 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
 			(at 87.63 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -7162,7 +8108,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_automotive_general_en.pdf"
 			(at 76.2 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -7174,6 +8120,61 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 76.2 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "TDK"
+			(at 76.2 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor 1" "https://eu.mouser.com/en/ProductDetail/TDK/CGA4J1X7R0J106K125AC?qs=NRhsANhppD%2FK4ZRLurir6Q%3D%3D"
+			(at 76.2 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "CGA4J1X7R0J106K125AC"
+			(at 76.2 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 76.2 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
 			(at 76.2 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -7256,6 +8257,39 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
+			(at 34.29 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor 1" ""
+			(at 34.29 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 34.29 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
 			(at 34.29 172.72 0)
 			(hide yes)
 			(show_name no)
@@ -7397,7 +8431,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.royalohm.com/assets/pdf/products/smd/10.pdf"
 			(at 129.54 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -7410,6 +8444,61 @@
 		)
 		(property "Description" "Resistor"
 			(at 129.54 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor 1" "https://eu.mouser.com/en/ProductDetail/Royalohm/CQ02WGJ0152TCE?qs=e8oIoAS2J1Tz47O2tULXbQ%3D%3D"
+			(at 129.54 74.93 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Royalohm"
+			(at 129.54 74.93 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "CQ02WGJ0152TCE"
+			(at 129.54 74.93 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 129.54 74.93 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 129.54 74.93 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7489,6 +8578,61 @@
 			)
 		)
 		(property "Description" ""
+			(at 41.91 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor 1" "https://eu.mouser.com/en/ProductDetail/Microchip-Technology/MCP1799-5002H-DB?qs=BJlw7L4Cy7%2FG%252BowrbrhCmg%3D%3D"
+			(at 41.91 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Microchip Technology"
+			(at 41.91 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "MCP1799-5002H/DB "
+			(at 41.91 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 41.91 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
 			(at 41.91 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -7591,6 +8735,85 @@
 			(project "STM32-Breakout-Board"
 				(path "/20c83845-728b-4bd9-b6c3-a9139102febf"
 					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 245.11 52.07 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "43a47be5-dd63-4d54-a136-95cf69f423ad")
+		(property "Reference" "#PWR024"
+			(at 251.46 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 250.19 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 245.11 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 245.11 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 245.11 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b297ebee-28fe-4f17-af52-874560f93b2f")
+		)
+		(instances
+			(project "STM32-Breakout-Board"
+				(path "/20c83845-728b-4bd9-b6c3-a9139102febf"
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -7876,7 +9099,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://eu.mouser.com/datasheet/3/5926/1/cx5r_KGM.pdf"
 			(at 25.4 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -7888,6 +9111,61 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 25.4 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "KYOCERA AVX"
+			(at 25.4 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor 1" "https://eu.mouser.com/en/ProductDetail/KYOCERA-AVX/KGM21AR51C226KU?qs=9vOqFld9vZWmS8vqjGSGIg%3D%3D"
+			(at 25.4 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "KGM21AR51C226KU"
+			(at 25.4 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 25.4 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
 			(at 25.4 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -7958,7 +9236,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://ele.kyocera.com/assets/products/capacitor/KGM_Series_e.pdf"
 			(at 181.61 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -7970,6 +9248,61 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 181.61 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "KYOCERA AVX"
+			(at 181.61 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "KAM05AR71C103JH"
+			(at 181.61 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor 1" "https://eu.mouser.com/en/ProductDetail/KYOCERA-AVX/KAM05AR71C103JH?qs=Jm2GQyTW%2Fbi3j6%2FJZLTuXA%3D%3D"
+			(at 181.61 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 181.61 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
 			(at 181.61 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -8073,8 +9406,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x14_Pin")
-		(at 237.49 88.9 0)
+		(lib_id "Connector:Conn_01x20_Pin")
+		(at 234.95 110.49 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8083,9 +9416,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "6c7649bb-cbef-4c64-a0b8-ce4de710e3cf")
+		(uuid "584abae6-de1a-4f9c-8be5-89ad229f5653")
 		(property "Reference" "J3"
-			(at 238.125 68.58 0)
+			(at 235.585 82.55 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8094,8 +9427,8 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x14_Pin"
-			(at 238.125 71.12 0)
+		(property "Value" "Conn_01x20_Pin"
+			(at 235.585 85.09 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8104,8 +9437,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 237.49 88.9 0)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x20_P2.54mm_Vertical"
+			(at 234.95 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8115,8 +9448,8 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 237.49 88.9 0)
+		(property "Datasheet" "https://eu.mouser.com/datasheet/3/71/1/M20_999.pdf"
+			(at 234.95 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8126,8 +9459,8 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x14, script generated"
-			(at 237.49 88.9 0)
+		(property "Description" "Generic connector, single row, 01x20, script generated"
+			(at 234.95 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8137,47 +9470,120 @@
 				)
 			)
 		)
-		(pin "7"
-			(uuid "014d8737-ad6e-410c-af90-049d780e1831")
+		(property "Distributor 1" "https://eu.mouser.com/en/ProductDetail/Harwin/M20-9992046?qs=%252Bk6%2F5FB6qrkVgm0dNoxueg%3D%3D"
+			(at 234.95 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
-		(pin "2"
-			(uuid "ad683507-a298-486f-ae53-ad5517817573")
+		(property "Manufacturer" "Harwin"
+			(at 234.95 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
-		(pin "6"
-			(uuid "39b46299-6a26-4a96-92ab-671e822b1109")
+		(property "Part Number" "M20-9992046"
+			(at 234.95 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
-		(pin "12"
-			(uuid "6d90b976-e0e2-4ffe-8506-c941c53d7127")
+		(property "KLC_S3.3" ""
+			(at 234.95 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 234.95 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(pin "14"
-			(uuid "4f92cdc0-3ad4-4c0b-9d6e-e283354aa726")
+			(uuid "fb44014f-2488-4c35-9701-fdc2a834614a")
 		)
-		(pin "10"
-			(uuid "ad70f30f-4074-4402-aa5b-9bee371bfabb")
+		(pin "15"
+			(uuid "d5694255-c8c9-4dff-9dcd-cb9a4e8b0ea9")
 		)
 		(pin "11"
-			(uuid "953d6a9a-c402-4488-b0dc-7fe41164d5af")
+			(uuid "f30ad107-3e8c-4dad-9c7a-73229a1d195c")
 		)
-		(pin "3"
-			(uuid "d1a32907-0d9f-4b7b-bd3e-e488bf509377")
+		(pin "17"
+			(uuid "b883f726-d157-48f2-a68a-cb3f054dc7b5")
 		)
-		(pin "1"
-			(uuid "c61b7c34-ea86-4356-b0f7-62b5494abaad")
+		(pin "12"
+			(uuid "8803d2e5-71b0-4d2e-9f6b-95a4c3bed7f3")
 		)
 		(pin "9"
-			(uuid "f2315529-7ac3-4f30-b673-cc8f6525ccfa")
+			(uuid "0d54453a-2c25-4307-9ecc-77a63b9bc7b6")
 		)
-		(pin "5"
-			(uuid "b1a32a4a-b290-4f0a-b4c8-f5cbd0f8f381")
+		(pin "6"
+			(uuid "f74a15ab-281b-44b3-9ab8-e280768bc01b")
 		)
-		(pin "13"
-			(uuid "9b83d368-a36f-4ac1-a4ef-017dec967180")
+		(pin "18"
+			(uuid "af8ed7c0-547c-4e09-b3ce-5078bc604fb9")
 		)
-		(pin "4"
-			(uuid "f7e02e0d-c297-4cc7-b79c-4f7574be0693")
+		(pin "2"
+			(uuid "fea0ec5c-2b5b-46f3-b17c-f975d9cc8b67")
+		)
+		(pin "7"
+			(uuid "caa5a4f1-83eb-4f07-bff5-3ac1c43af8ce")
+		)
+		(pin "19"
+			(uuid "06dea966-ae59-47ea-ac2b-e41f83814525")
 		)
 		(pin "8"
-			(uuid "445dce46-6095-4287-ae25-21b0c9b0ca0f")
+			(uuid "517367f1-c325-429e-939a-30f502397379")
+		)
+		(pin "13"
+			(uuid "17b6d400-0c93-4868-8ba0-2dfbd57fcb57")
+		)
+		(pin "5"
+			(uuid "2b25b780-5638-4cd5-9651-3281a339bff1")
+		)
+		(pin "10"
+			(uuid "bce6f52b-bfe5-4ea8-bfcf-838300749d37")
+		)
+		(pin "16"
+			(uuid "ad384ba9-1fb8-4046-ad7c-2b981ea09eee")
+		)
+		(pin "20"
+			(uuid "a8b1f54d-aa0f-4e4c-88c2-e0bc6a36e83a")
+		)
+		(pin "4"
+			(uuid "281e077a-547e-49eb-96bb-483111df6158")
+		)
+		(pin "3"
+			(uuid "bc2520c3-e925-4947-b42e-d03fa73f7774")
+		)
+		(pin "1"
+			(uuid "89318842-aabc-449a-a2c7-27b0e442eba0")
 		)
 		(instances
 			(project "STM32-Breakout-Board"
@@ -8245,6 +9651,61 @@
 			)
 		)
 		(property "Description" ""
+			(at 161.29 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "STMicroelectronics"
+			(at 161.29 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "stm32l443cct6"
+			(at 161.29 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor 1" "https://eu.mouser.com/en/ProductDetail/STMicroelectronics/STM32L443CCT6?qs=dTJS0cRn7ohLPtZ3IeJ%2Fbg%3D%3D"
+			(at 161.29 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 161.29 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
 			(at 161.29 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -8530,7 +9991,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.vishay.com/docs/83172/tlmo1000.pdf"
 			(at 46.99 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -8553,6 +10014,61 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 46.99 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor 1" "https://eu.mouser.com/en/ProductDetail/Vishay-Semiconductors/TLMS1000-GS15?qs=sGAEpiMZZMvVL5Kk7ZYykaXDR74jB6yf2cF5%252Bh2QHw7j%252B7G9uzeG%2Fg%3D%3D"
+			(at 46.99 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Vishay Semiconductors"
+			(at 46.99 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "TLMS1000-GS15"
+			(at 46.99 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 46.99 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
 			(at 46.99 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -8658,6 +10174,83 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 242.57 49.53 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7d117d4f-d272-42e2-91ca-d2971a976a9d")
+		(property "Reference" "#PWR023"
+			(at 238.76 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 242.57 48.26 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 242.57 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 242.57 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 242.57 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b67ba989-0961-40dc-b9fc-cf2a8a90d127")
+		)
+		(instances
+			(project "STM32-Breakout-Board"
+				(path "/20c83845-728b-4bd9-b6c3-a9139102febf"
+					(reference "#PWR023")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VBUS")
 		(at 25.4 80.01 0)
 		(mirror y)
@@ -8731,86 +10324,6 @@
 			(project "STM32-Breakout-Board"
 				(path "/20c83845-728b-4bd9-b6c3-a9139102febf"
 					(reference "#PWR013")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 59.69 135.89 0)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "84a1da6a-d752-41cd-a866-fdfc48df7696")
-		(property "Reference" "R5"
-			(at 62.23 135.89 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1k5"
-			(at 57.658 135.636 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 57.912 135.89 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 59.69 135.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 59.69 135.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "a6d1e157-99df-473a-86fa-be486faabb4a")
-		)
-		(pin "2"
-			(uuid "57b29909-2cd2-4ae1-8e8b-6783fbaf8d31")
-		)
-		(instances
-			(project "STM32-Breakout-Board"
-				(path "/20c83845-728b-4bd9-b6c3-a9139102febf"
-					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -8940,7 +10453,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/629105150521.pdf"
 			(at 44.45 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -8952,6 +10465,61 @@
 			)
 		)
 		(property "Description" "USB Micro Type B connector"
+			(at 40.64 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor 1" "https://eu.mouser.com/en/ProductDetail/Wurth-Elektronik/629105150521?qs=a9WhcLg8qCzXiH7kZP8GRQ%3D%3D"
+			(at 40.64 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Wurth Elektronik"
+			(at 40.64 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "629105150521"
+			(at 40.64 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 40.64 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
 			(at 40.64 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -9062,83 +10630,6 @@
 			(project "STM32-Breakout-Board"
 				(path "/20c83845-728b-4bd9-b6c3-a9139102febf"
 					(reference "#FLG01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 59.69 130.81 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "a7d100fd-e82e-4ab6-9682-fd8e4f42ff85")
-		(property "Reference" "#PWR023"
-			(at 59.69 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 59.69 127 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 59.69 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 59.69 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 59.69 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "2400bb11-a98c-4958-84df-3276e4a33db6")
-		)
-		(instances
-			(project "STM32-Breakout-Board"
-				(path "/20c83845-728b-4bd9-b6c3-a9139102febf"
-					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -9346,7 +10837,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://ele.kyocera.com/assets/products/capacitor/KGM_Series_e.pdf"
 			(at 111.76 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -9358,6 +10849,61 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 111.76 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "KYOCERA AVX"
+			(at 111.76 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "KGM05ACG1H100JH"
+			(at 111.76 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor 1" "https://eu.mouser.com/en/ProductDetail/KYOCERA-AVX/KGM05ACG1H100JH?qs=Jm2GQyTW%2FbiDa9IJ%2FofzNQ%3D%3D"
+			(at 111.76 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 111.76 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
 			(at 111.76 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -9428,7 +10974,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://ele.kyocera.com/assets/products/capacitor/KGM_Series_e.pdf"
 			(at 193.04 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -9440,6 +10986,61 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 193.04 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "KYOCERA AVX"
+			(at 193.04 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "KGM15BR71C105JT"
+			(at 193.04 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor 1" "https://eu.mouser.com/en/ProductDetail/KYOCERA-AVX/KGM15BR71C105JT?qs=Z%252BL2brAPG1K2MbrAaZa7Nw%3D%3D"
+			(at 193.04 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 193.04 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
 			(at 193.04 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -9609,6 +11210,39 @@
 				)
 			)
 		)
+		(property "Distributor 1" ""
+			(at 34.29 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 34.29 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 34.29 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(instances
 			(project "STM32-Breakout-Board"
 				(path "/20c83845-728b-4bd9-b6c3-a9139102febf"
@@ -9663,7 +11297,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://eu.mouser.com/datasheet/3/5926/1/cx5r_KGM.pdf"
 			(at 55.88 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -9675,6 +11309,61 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 55.88 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "KYOCERA AVX"
+			(at 55.88 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor 1" "https://eu.mouser.com/en/ProductDetail/KYOCERA-AVX/KGM21AR51C226KU?qs=9vOqFld9vZWmS8vqjGSGIg%3D%3D"
+			(at 55.88 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "KGM21AR51C226KU"
+			(at 55.88 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 55.88 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
 			(at 55.88 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -9745,7 +11434,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheets.kyocera-avx.com/KGM_X7R.pdf"
 			(at 99.06 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -9757,6 +11446,61 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 99.06 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "KYOCERA AVX"
+			(at 99.06 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "04025C104JAT2A"
+			(at 99.06 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor 1" "https://eu.mouser.com/en/ProductDetail/KYOCERA-AVX/04025C104JAT2A?qs=yqaQSyyJnNjAUYBPnTRwrw%3D%3D"
+			(at 99.06 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 99.06 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
 			(at 99.06 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -9928,6 +11672,39 @@
 				)
 			)
 		)
+		(property "Distributor 1" ""
+			(at 34.29 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 34.29 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 34.29 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(instances
 			(project "STM32-Breakout-Board"
 				(path "/20c83845-728b-4bd9-b6c3-a9139102febf"
@@ -10057,7 +11834,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.royalohm.com/assets/pdf/products/smd/10.pdf"
 			(at 30.48 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -10070,6 +11847,61 @@
 		)
 		(property "Description" "Resistor"
 			(at 30.48 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor 1" "https://eu.mouser.com/en/ProductDetail/Royalohm/CQ02WGJ0152TCE?qs=e8oIoAS2J1Tz47O2tULXbQ%3D%3D"
+			(at 30.48 113.03 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Royalohm"
+			(at 30.48 113.03 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "CQ02WGJ0152TCE"
+			(at 30.48 113.03 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 30.48 113.03 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 30.48 113.03 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10137,7 +11969,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://eu.mouser.com/datasheet/3/76/2/QNFA9101.pdf"
 			(at 199.39 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -10150,6 +11982,61 @@
 		)
 		(property "Description" "Ferrite bead"
 			(at 199.39 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor 1" "https://eu.mouser.com/en/ProductDetail/Murata-Electronics/BLM18BD121SH1D?qs=sGAEpiMZZMt1hubY80%2Fs8FfWhFALItnYqN5kOVg%2FQxI%3D"
+			(at 199.39 57.15 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 199.39 57.15 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "BLM18BD121SH1D"
+			(at 199.39 57.15 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 199.39 57.15 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 199.39 57.15 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10238,6 +12125,61 @@
 				)
 			)
 		)
+		(property "Distributor 1" "https://eu.mouser.com/en/ProductDetail/SparkFun/COM-09609?qs=WyAARYrbSnY%2FImRXNY6TIg%3D%3D"
+			(at 96.52 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "SparkFun"
+			(at 96.52 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "COM-09609"
+			(at 96.52 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 96.52 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 96.52 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "baf64e3c-ed06-4541-97a3-30f4b420c46c")
 		)
@@ -10301,7 +12243,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheets.kyocera-avx.com/KGM_X7R.pdf"
 			(at 86.36 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -10323,6 +12265,61 @@
 				)
 			)
 		)
+		(property "Manufacturer" "KYOCERA AVX"
+			(at 86.36 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "04025C104JAT2A"
+			(at 86.36 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor 1" "https://eu.mouser.com/en/ProductDetail/KYOCERA-AVX/04025C104JAT2A?qs=yqaQSyyJnNjAUYBPnTRwrw%3D%3D"
+			(at 86.36 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 86.36 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 86.36 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "817ffc1d-4b17-43d8-804a-96a4b126ecad")
 		)
@@ -10333,6 +12330,85 @@
 			(project "STM32-Breakout-Board"
 				(path "/20c83845-728b-4bd9-b6c3-a9139102febf"
 					(reference "C9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 245.11 110.49 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e9470369-08c1-44c5-b6d0-9f13d5e936a3")
+		(property "Reference" "#PWR025"
+			(at 251.46 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 250.19 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 245.11 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 245.11 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 245.11 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e376676a-5239-430f-a5b6-43c8a94ee7c8")
+		)
+		(instances
+			(project "STM32-Breakout-Board"
+				(path "/20c83845-728b-4bd9-b6c3-a9139102febf"
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -10383,7 +12459,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheets.kyocera-avx.com/KGM_X7R.pdf"
 			(at 121.92 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -10395,6 +12471,61 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 121.92 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "KYOCERA AVX"
+			(at 121.92 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "04025C104JAT2A"
+			(at 121.92 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor 1" "https://eu.mouser.com/en/ProductDetail/KYOCERA-AVX/04025C104JAT2A?qs=yqaQSyyJnNjAUYBPnTRwrw%3D%3D"
+			(at 121.92 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 121.92 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
 			(at 121.92 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -10421,8 +12552,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x14_Pin")
-		(at 237.49 46.99 0)
+		(lib_id "power:GND")
+		(at 245.11 31.75 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10431,9 +12562,10 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "f6460835-a15a-49c3-b0ac-b24761dc6c25")
-		(property "Reference" "J2"
-			(at 238.125 26.67 0)
+		(uuid "f62416e6-3d16-40b1-95e6-edd2c6e9097a")
+		(property "Reference" "#PWR020"
+			(at 251.46 31.75 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10442,8 +12574,9 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x14_Pin"
-			(at 238.125 29.21 0)
+		(property "Value" "GND"
+			(at 250.19 31.75 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10453,7 +12586,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 237.49 46.99 0)
+			(at 245.11 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10464,7 +12597,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 237.49 46.99 0)
+			(at 245.11 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10474,8 +12607,8 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x14, script generated"
-			(at 237.49 46.99 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 245.11 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10484,53 +12617,14 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(pin "10"
-			(uuid "54ae2ee6-b64f-4201-8586-c119e0d05821")
-		)
-		(pin "12"
-			(uuid "033761ac-8030-4ff7-b72c-d502f6f0df3f")
-		)
-		(pin "13"
-			(uuid "e475b018-e564-4ea6-bdfd-a66ec81888b9")
-		)
-		(pin "8"
-			(uuid "810973a0-5a43-4eb6-83a0-381618a00214")
-		)
-		(pin "2"
-			(uuid "0bf1db41-25f3-43a2-bcf9-bcb71a7aeceb")
-		)
-		(pin "5"
-			(uuid "2e57fa92-0693-473c-95cd-7512ed149591")
-		)
-		(pin "3"
-			(uuid "08dfc2af-8531-4146-abf9-c0435c22dce5")
 		)
 		(pin "1"
-			(uuid "b215bd70-94b4-423e-8f77-59a95388fa60")
-		)
-		(pin "6"
-			(uuid "fc87fabe-0e36-48d0-83f9-a6257c4246ec")
-		)
-		(pin "4"
-			(uuid "42da31a1-53e9-446d-8be1-bc8a093793be")
-		)
-		(pin "11"
-			(uuid "2b20941a-1dd2-42ee-a933-394c7b822c07")
-		)
-		(pin "9"
-			(uuid "0e535672-40b7-4c54-8a24-9ae90429180e")
-		)
-		(pin "14"
-			(uuid "ecefa28b-cb45-45c2-b145-44fbdfd7e8c7")
-		)
-		(pin "7"
-			(uuid "7e231211-b0e1-4b58-bf4b-be707e6d0925")
+			(uuid "110b0fa9-1891-47be-85b5-bfaa6834243c")
 		)
 		(instances
 			(project "STM32-Breakout-Board"
 				(path "/20c83845-728b-4bd9-b6c3-a9139102febf"
-					(reference "J2")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -10581,7 +12675,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheets.kyocera-avx.com/KGM_X7R.pdf"
 			(at 110.49 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -10593,6 +12687,61 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 110.49 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "KYOCERA AVX"
+			(at 110.49 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "04025C104JAT2A"
+			(at 110.49 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor 1" "https://eu.mouser.com/en/ProductDetail/KYOCERA-AVX/04025C104JAT2A?qs=yqaQSyyJnNjAUYBPnTRwrw%3D%3D"
+			(at 110.49 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 110.49 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
 			(at 110.49 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -10685,6 +12834,39 @@
 				)
 			)
 		)
+		(property "Distributor 1" ""
+			(at 34.29 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 34.29 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 34.29 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(instances
 			(project "STM32-Breakout-Board"
 				(path "/20c83845-728b-4bd9-b6c3-a9139102febf"
@@ -10737,7 +12919,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://ele.kyocera.com/assets/products/crystal-device/cx3225ca_e.pdf"
 			(at 120.65 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -10774,6 +12956,39 @@
 			(at 120.65 106.68 0)
 			(hide yes)
 			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor 1" "https://eu.mouser.com/en/ProductDetail/KYOCERA-AVX/CX3225CA12000F0KFQCC?qs=a4BXICGgSn97NKR9h2PVlA%3D%3D"
+			(at 120.65 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "KYOCERA AVX"
+			(at 120.65 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "CX3225CA12000F0KFQCC"
+			(at 120.65 91.44 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
