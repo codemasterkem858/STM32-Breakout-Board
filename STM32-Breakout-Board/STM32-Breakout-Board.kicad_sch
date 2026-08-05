@@ -7191,6 +7191,17 @@
 				)
 			)
 		)
+		(property "Price" "$0.68 "
+			(at 234.95 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "14"
 			(uuid "03f2122c-117b-4988-b2b6-ba04f43ceb1d")
 		)
@@ -7462,6 +7473,17 @@
 				)
 			)
 		)
+		(property "Price" "$0.28 "
+			(at 208.28 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "498f5a25-541d-4e16-8c96-30daae2e1604")
 		)
@@ -7666,6 +7688,17 @@
 			)
 		)
 		(property "KLC_S4.1" ""
+			(at 129.54 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price" "$0.10 "
 			(at 129.54 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -7969,6 +8002,17 @@
 				)
 			)
 		)
+		(property "Price" "$0.13 "
+			(at 87.63 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "2d4fc4eb-5e70-405f-9e69-a4060176eaff")
 		)
@@ -8185,6 +8229,17 @@
 				)
 			)
 		)
+		(property "Price" "$0.27 "
+			(at 76.2 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "96ddd4dc-30c5-4b54-a8e6-b0977cdaa499")
 		)
@@ -8290,6 +8345,17 @@
 			)
 		)
 		(property "KLC_S4.1" ""
+			(at 34.29 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price" ""
 			(at 34.29 172.72 0)
 			(hide yes)
 			(show_name no)
@@ -8508,6 +8574,17 @@
 				)
 			)
 		)
+		(property "Price" "$0.003"
+			(at 129.54 74.93 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "e687ae01-f154-49e7-a9d4-8e4951cdce0d")
 		)
@@ -8633,6 +8710,17 @@
 			)
 		)
 		(property "KLC_S4.1" ""
+			(at 41.91 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price" "$0.42"
 			(at 41.91 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -9176,6 +9264,17 @@
 				)
 			)
 		)
+		(property "Price" "$0.48"
+			(at 25.4 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "24d24777-53c8-48a4-92b8-7df4b7ba2403")
 		)
@@ -9303,6 +9402,17 @@
 			)
 		)
 		(property "KLC_S4.1" ""
+			(at 181.61 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price" "$0.12 "
 			(at 181.61 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -9525,6 +9635,17 @@
 				)
 			)
 		)
+		(property "Price" "$0.68 "
+			(at 234.95 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "14"
 			(uuid "fb44014f-2488-4c35-9701-fdc2a834614a")
 		)
@@ -9706,6 +9827,17 @@
 			)
 		)
 		(property "KLC_S4.1" ""
+			(at 161.29 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price" "$5.79"
 			(at 161.29 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -10069,6 +10201,17 @@
 			)
 		)
 		(property "KLC_S4.1" ""
+			(at 46.99 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price" "$0.42 "
 			(at 46.99 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -10530,6 +10673,17 @@
 				)
 			)
 		)
+		(property "Price" "$2.21"
+			(at 40.64 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "881b7e17-1070-410a-9251-dfb51da0b3fb")
 		)
@@ -10914,6 +11068,17 @@
 				)
 			)
 		)
+		(property "Price" "$0.10 "
+			(at 111.76 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "3461b3ef-1bfd-4981-9c68-85859b6c6f45")
 		)
@@ -11041,6 +11206,17 @@
 			)
 		)
 		(property "KLC_S4.1" ""
+			(at 193.04 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price" "$0.28 "
 			(at 193.04 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -11243,6 +11419,17 @@
 				)
 			)
 		)
+		(property "Price" ""
+			(at 34.29 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(instances
 			(project "STM32-Breakout-Board"
 				(path "/20c83845-728b-4bd9-b6c3-a9139102febf"
@@ -11364,6 +11551,17 @@
 			)
 		)
 		(property "KLC_S4.1" ""
+			(at 55.88 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price" "$0.48"
 			(at 55.88 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -11501,6 +11699,17 @@
 			)
 		)
 		(property "KLC_S4.1" ""
+			(at 99.06 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price" "$0.13 "
 			(at 99.06 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -11695,6 +11904,17 @@
 			)
 		)
 		(property "KLC_S4.1" ""
+			(at 34.29 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price" ""
 			(at 34.29 166.37 0)
 			(hide yes)
 			(show_name no)
@@ -11911,6 +12131,17 @@
 				)
 			)
 		)
+		(property "Price" "$0.003"
+			(at 30.48 113.03 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "462581d3-e9f6-4964-9381-03fd6c89e30e")
 		)
@@ -12036,6 +12267,17 @@
 			)
 		)
 		(property "KLC_S4.1" ""
+			(at 199.39 57.15 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price" "$0.10 "
 			(at 199.39 57.15 90)
 			(hide yes)
 			(show_name no)
@@ -12180,6 +12422,17 @@
 				)
 			)
 		)
+		(property "Price" "$0.95 "
+			(at 96.52 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "baf64e3c-ed06-4541-97a3-30f4b420c46c")
 		)
@@ -12310,6 +12563,17 @@
 			)
 		)
 		(property "KLC_S4.1" ""
+			(at 86.36 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price" "$0.13 "
 			(at 86.36 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -12536,6 +12800,17 @@
 				)
 			)
 		)
+		(property "Price" "$0.13 "
+			(at 121.92 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "edfcbf74-9112-4c68-989a-12ff88a9d376")
 		)
@@ -12752,6 +13027,17 @@
 				)
 			)
 		)
+		(property "Price" "$0.13 "
+			(at 110.49 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "c0a5b4df-85e2-485b-a3fa-597441b3fc70")
 		)
@@ -12857,6 +13143,17 @@
 			)
 		)
 		(property "KLC_S4.1" ""
+			(at 34.29 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price" ""
 			(at 34.29 185.42 0)
 			(hide yes)
 			(show_name no)
@@ -12986,6 +13283,17 @@
 			)
 		)
 		(property "Part Number" "CX3225CA12000F0KFQCC"
+			(at 120.65 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price" "$0.54 "
 			(at 120.65 91.44 0)
 			(hide yes)
 			(show_name no)
