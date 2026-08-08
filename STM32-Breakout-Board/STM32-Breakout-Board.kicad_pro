@@ -675,7 +675,7 @@
           "group_by": false,
           "label": "Price",
           "name": "Price",
-          "show": false
+          "show": true
         }
       ],
       "filter_string": "",
